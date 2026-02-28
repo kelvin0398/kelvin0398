@@ -1,0 +1,206 @@
+body
+{
+  --default-font-size : 18px;
+}
+.app-main
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.app-Aboutmoi
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 800px;
+  color: white;
+}
+
+.abm-section-1
+{
+  display : flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  row-gap: 50px;
+}
+.abm-jt-ptr
+{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+.my-JT 
+{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.job-Title
+{
+  font-size: 50px;
+}
+.job-Me
+{
+  font-size: 28px;
+}
+.my-Portrait
+{
+  width: 800px;
+  height: 850px;
+  border: none;
+  border-radius: 4.5px;
+}
+.myP-Img
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 4.5px;
+}
+.abm-text-001 p
+{
+  font-size: 22px;
+}
+.abm-section-2
+{
+  margin-top: 100px;
+  margin-left: 20%;
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0px;
+}
+
+.abm-text
+{
+  opacity: 0;
+  padding: 100px;
+  background-color: black;
+  width: 850px;
+  font-size: var(--default-font-size);
+  border-radius: 8.5px 0px 0px 10px;
+ 
+}
+.abm-text-show
+{
+   animation: abmt 0.85s ease-in forwards;
+}
+.abm-ele
+{
+  opacity: 0;
+  background-color: purple;
+  height: 350px;
+  width: 850px;
+}
+.abm-ele-show
+{
+  animation: abme 0.55s ease-in forwards 0.9s;
+}
+@keyframes abmt {
+  from 
+  {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+  to 
+  {
+    opacity: 1.0;
+    transform: translateX(0px);
+  }
+}
+@keyframes abme {
+  from 
+  {
+    opacity: 0;
+    /* transform: translateX(1000px); */
+  }
+  to 
+  {
+    opacity: 1.0;
+    /* transform: translateX(0px); */
+  }
+}
+.abm-section-3
+{
+  margin-top: 100px;
+  margin-left: 20%;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0px;
+  background-color: black;
+  border-radius: 6.5px 0px 0px 6.5px;
+  box-shadow: -5px -5px -5px 5px black;
+  padding: 30px 20px;
+}
+.abms001, .abms002, .abms003, .abms004, .abms005, .abms006,
+.abms007, .abms008,.abms009,.abms010,.abms011
+{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 20px;
+} 
+
+.abm-skill
+{
+  font-size: 40px;
+  color: white;
+}
+.abm-skill-show 
+{
+  animation: abm_sl 0.5s ease-in-out forwards;
+}
+.abms-img
+{
+  font-size: 30px;
+  align-content: center;
+  color: white; 
+}
+.abms-img-show 
+{
+  animation: abmsimg 0.5s ease-in-out forwards;
+}
+@keyframes abm_sl {
+  from 
+  {
+    opacity: 0; 
+    transform: translateX(-800px);
+  }
+  to 
+  {
+    opacity: 1.0; 
+    transform: translateX(0px); 
+  }
+}
+@keyframes abmsimg {
+  from 
+  {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to 
+  {
+    opacity: 1.0;
+    transform: translateX(0px);
+  }
+}
+.pg-footer
+{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 30px;
+  background-color: rgb(34, 2, 2);
+  padding: 20px 30px;
+}

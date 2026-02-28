@@ -1,0 +1,26 @@
+{
+  "name": "full-stack-porfolio",
+  "version": "1.0.0",
+  "description": "FE and BE Elegant Portfolio",
+  "keywords": [
+    "portfolio",
+    "portfolio-js",
+    "portfolio-react",
+    "portfolio-node"
+  ],
+  "homepage": "https://github.com/kelvin0398/my-portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/kelvin0398/my-portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvin0398/my-portfolio.git"
+  },
+  "license": "ISC",
+  "author": "Kelvin Vuong",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

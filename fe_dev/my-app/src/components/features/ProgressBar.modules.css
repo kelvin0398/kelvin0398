@@ -1,0 +1,36 @@
+.progress-env
+{
+  display : flex;
+  justify-content: center;
+}
+.my-skill-progress
+{
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(36, 57, 62);
+  height: 20px;
+  width: 450px;
+}
+.progress-value
+{
+  height: 100%;
+  --my-width : ; /* To use parsed value from JS */
+  width: 0%;
+  border: none;
+  border-radius: 10px;
+  background-color: cyan;
+}
+.progress-value-show
+{
+  animation: my-progress 0.5s ease-out forwards 0.65s;
+}
+@keyframes my-progress {
+  from 
+  {
+    width: 0%;
+  }
+  to
+  {
+    width: var(--my-width);
+  }
+}
