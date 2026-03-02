@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './personal-brand.svg';
 import './App.css';
 import AboutMe from './components/about/aboutMe';
 import MyProjects from './components/projects/myProjects';

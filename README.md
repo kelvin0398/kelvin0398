@@ -8,12 +8,25 @@
 ## What is it?
 
 <h2 style="font-size: 50px color: red">
-  Personal Portfolio
+  My Personal Portfolio
 </h2>
 <div>
   <p style="font-size: 30px padding-left: 25px">
     Here is the showcase of my solo projects and experience.
   </p>
+  <p style="font-size: 30px padding-left: 25px">
+    This Portfolio Website was entirely built from scratch by me. Other methods could have been used for a more speedy and faster approach: using open-source Bootstrap pages or Templates, even maybe simply pull another dev's source code from Hubs. 
+  </p>
+  <p style="font-size: 30px padding-left: 25px">
+    Still, I prefer building my scripts from stratch with as little as possible supports from Documentation and AI Assistant.
+  </p>
+  <p style="font-size: 30px padding-left: 25px">
+    What I have used for this build: 
+  </p>
+  <ul>
+      <li>React JS</li>
+      <li>Node JS</li>
+  </ul>
 </div>
 
 ## Why did I created it?

@@ -21,7 +21,7 @@ function TitleMenu (props) {
       <div>
         <button className="app-MenuBtn"
         onClick={() => {
-          window.open('/my_project', '_self');
+          window.open('/projects', '_self');
         }}
         >My Projects</button>
       </div>

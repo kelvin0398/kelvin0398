@@ -12,7 +12,7 @@ class MyFooter extends React.Component {
         <div>
           <h3>ReactX</h3>
           <p>Personal Portfolio</p>
-          <p>(c) Kelvin Vuong</p>
+          <p>(c) Copyright Kelvin Vuong 2026</p>
         </div>
       </div>
     )

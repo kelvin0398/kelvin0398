@@ -5,13 +5,21 @@ import TitleMenu from '../share/Mtl';
 import Contact from '../share/Contact'
 import MyFooter from '../share/MyFooter';
 import ProgressBar from '../features/ProgressBar';
+import MyWelcome from '../assets/self/welcome-msg.png'
+import Arrow1 from '../assets/icons/rtarrow_1.png'
 
 function scrollHandler () {
-  //Include 2 classes
+
+  //For Seperated Individual Classes
+  
   const sections = [
     document.querySelector('.abm-text'),
     document.querySelector('.abm-ele'),
+    document.querySelector('.bps-arrow'),
   ];
+
+  //For Group of Classes
+  
   const sk_elements = document.querySelectorAll('.abm-skill');
   const sk_imgs = document.querySelectorAll('.abms-img');
   const sk_bar = document.querySelectorAll('.progress-value');
@@ -29,19 +37,23 @@ function scrollHandler () {
         entry.target.classList.add('abms-img-show');
       } else if (entry.target.classList.contains('progress-value')) {
         entry.target.classList.add('progress-value-show');
+      } else if (entry.target.classList.contains('bps-arrow')) {
+        entry.target.classList.add('bps-arrow-show');
       }
      } else {
          if (entry.target.classList.contains('abm-text')) {
           entry.target.classList.remove('abm-text-show');
-        } else if (entry.target.classList.contains('abm-ele')) {
-          entry.target.classList.remove('abm-ele-show') 
-        } else if (entry.target.classList.contains('abm-skill')) {
-          entry.target.classList.remove('abm-skill-show') 
-        } else if (entry.target.classList.contains('abms-img')) {
-        entry.target.classList.remove('abms-img-show');
-      } else if (entry.target.classList.contains('progress-value')) {
-        entry.target.classList.remove('progress-value-show');
-      }
+          } else if (entry.target.classList.contains('abm-ele')) {
+            entry.target.classList.remove('abm-ele-show') 
+          } else if (entry.target.classList.contains('abm-skill')) {
+            entry.target.classList.remove('abm-skill-show') 
+          } else if (entry.target.classList.contains('abms-img')) {
+          entry.target.classList.remove('abms-img-show');
+          } else if (entry.target.classList.contains('progress-value')) {
+            entry.target.classList.remove('progress-value-show');
+          } else if (entry.target.classList.contains('bps-arrow')) {
+            entry.target.classList.remove('bps-arrow-show');
+          }
      }
     })
   })
@@ -83,10 +95,10 @@ function Abm (props) {
               <p className="job-Title">
               Fullstack Developer
               </p>
-              <p className="job-Me">
+              <p className="job-Me-1">
                 Hi, My name is Khoa!
               </p>
-              <p className="job-Me">
+              <p className="job-Me-2">
                 People always call me Kelvin Vuong.
               </p>
             </div>
@@ -96,34 +108,30 @@ function Abm (props) {
           </div>
         <div className="abm-text-001">
           <p>
-            Drifting from Banking and Hospitality, I eventually found what I believe it would perfectly fit me. This career path offers an infinitive creativity where 
-            I have to intuitively update new techs and knowledge with a never-top-learning mindset. 
+            Drifting from Banking and Hospitality, I eventually found what I believe it would perfectly fit me in long term. As this career path offers an infinitive creativity
+            I have to intuitively update new tech skills and knowledge with a never-top-learning mindset. 
           </p>
         </div>
       </div>
         <div className="abm-section-2">
           <div className="abm-text">
             <p>
-              My interesting sectors vary from Web Application Engineering to DevOps. Still, there are still numerous sections need to be improved.
+              My interesting sectors vary from Web Application Engineering to DevOps. 
+              Still, I am currently concentrating onto becoming a Middle Junior to Senior Full Stack Web Developer.
             </p>
             <p>
-              My Objective never stops at just Coding and Debugging, I would love to master System Design and Architecture. My destination should be at Engineer Level within 5 years or so.
+              My Objective never stops at just Coding and Debugging, 
+              I would love to master System Design and Architecture. 
+              My destination should be at Engineer Level within 5 years or so.
             </p>
         </div>
         <div className="abm-ele">
-            img
+            <img src={MyWelcome} className="abm-ele-img" />
         </div>
         </div>
         <div className="abm-section-3">
+          <h1 className="abms-tl">My Technical Skills</h1>
           <div className="abms001">
-            <div className="abm-skill">
-              <h3>Python</h3>
-            </div>
-            <div className="abms-img">
-              <ProgressBar value={0.7}/>
-            </div>
-          </div>
-          <div className="abms002">
             <div className="abm-skill">
               <h3>JavaScript</h3>
             </div>
@@ -131,20 +139,28 @@ function Abm (props) {
               <ProgressBar value={0.8}/>
             </div>
           </div>
-          <div className="abms003">
+          <div className="abms002">
             <div className="abm-skill">
               <h3>HTML</h3>
             </div>
             <div className="abms-img">
-              <ProgressBar value={0.6}/>
+              <ProgressBar value={0.8}/>
             </div>
           </div>
-          <div className="abms004">
+          <div className="abms003">
             <div className="abm-skill">
               <h3>CSS</h3>
             </div>
             <div className="abms-img">
-              <ProgressBar value={0.6}/>
+              <ProgressBar value={0.8}/>
+            </div>
+          </div>
+          <div className="abms004">
+            <div className="abm-skill">
+              <h3>Python</h3>
+            </div>
+            <div className="abms-img">
+              <ProgressBar value={0.65}/>
             </div>
           </div>
           <div className="abms005">
@@ -202,6 +218,24 @@ function Abm (props) {
             <div className="abms-img">
               <ProgressBar value={0.55}/>
             </div>
+          </div>
+        </div>
+        <div style={{
+          display : 'flex',
+          flex: 1,
+          marginTop : '30px',
+          padding: '10px 20px',
+          justifyContent: 'flex-end',
+          alignItems : 'center',
+          backgroundColor : 'gray',
+        }}>
+          <div className="btn-PageSwitcher"
+          onClick = {() => {
+            window.open('/projects', '_self');
+          }}
+          >
+            My Projects
+            <img src={Arrow1} className="bps-arrow"></img>
           </div>
         </div>
         <div className="pg-footer">
