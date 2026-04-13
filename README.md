@@ -11,6 +11,7 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
 - This is not a date profile so I can't throw all personal data in here. Just for you know, I am single man.
 - I am still quite struggling in new ideas for the next big projects.
 - What I have done by far: 
+
 <ul>
   <li>  Coffee Shop Web App </li>
   <li>  Hotel ERP System Web App </li>
@@ -40,6 +41,7 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
       <li>Algoritms</li>
       <li>System Design</li>
   </ul>
+  
   <h3>Hobbies</h3>
   <p align="center">
    <img src="/fe_dev/my-app/src/components/assets/icons/reading.avif" style="width:80px; height:80px; border-radius:100%"/>
@@ -48,9 +50,9 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
   </p>
 </div>
 
-<h3>Personal Stats</h3>
+ <h3>Personal Stats</h3>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvin0398)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvin0398)](https://github.com/anuraghazra/github-readme-stats)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvin0398&commits_year=2026)
 
@@ -59,8 +61,11 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
 ## Learn more about me
 
 <div style="display:flex; flex:1; flex-direction:row align-items:center; justify-content:center">
-  <a><img style="width:320px; height:40px" src="/fe_dev/my-app/src/components/assets/icons/linkedin.svg"/></a>
-  <a><img style="width:320px; height:40px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
+  <p align="center">
+    <a><img style="width:100px; height:100px" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"/></a>
+    <a><img style="width:100px; height:100px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
+    <a><img style="width:100px; height:100px" src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000"/>
+  </p>
 <div>
 
 > [!INFO]
