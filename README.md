@@ -1,17 +1,18 @@
 
-$$\color{orange}{WELCOME\spaceTO\spaceMY\spacePROFILE}$$
-$$\color{lightblue}{KHOA\spaceVUONG}$$
+$$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
+$$\color{lightblue}{KELVIN\space VUONG}$$
+$$\color{lightblue}{KHOA\space VUONG}$$
 
 
-## TABLE OF CONTENTS
+<h1 align="center">QUICK </h1>
 
 - [About Me](#What-is-it?)
-- [Contact](#Contact?)
+- [Contact](#learn-more-about-me)
 
 ## About me
 
 <div>
-  <h2>Life as a Programmer.</h2>
+  <h3>Life as a Programmer.</h3>
   <p style="font-size: 30px padding-left: 25px">
     Improve yourself everyday, make sure the next day would be better than the previos day.
   </p>
@@ -32,22 +33,21 @@ $$\color{lightblue}{KHOA\spaceVUONG}$$
       <li>Algoritms</li>
       <li>System Design</li>
   </ul>
-  <h2>Hobbies</h2>
+  <h3>Hobbies</h3>
   <p align="center">
-   <img src="/fe_dev/my-app/src/components/assets/icons/reading.avif" style="width:35px; height:35px; border-radius:100%"/>
-   <img src="/fe_dev/my-app/src/components/assets/icons/game.jpg" style="width:35px; height:35px; border-radius:100%"/>
-   <img src="/fe_dev/my-app/src/components/assets/icons/guitar.webp" style="width:35px; height:35px; border-radius:100%"/>
+   <img src="/fe_dev/my-app/src/components/assets/icons/reading.avif" style="width:80px; height:80px; border-radius:100%"/>
+   <img src="/fe_dev/my-app/src/components/assets/icons/game.jpg" style="width:80px; height:80px; border-radius:100%"/>
+   <img src="/fe_dev/my-app/src/components/assets/icons/guitar.webp" style="width:80px; height:80px; border-radius:100%"/>
   </p>
 </div>
 
-## Contact
+## Learn more about me
 
-<div style="display:flex; flex:1; flex-direction:row">
-</div>
-<a><img style="width:320px; height:40px" src="/fe_dev/my-app/src/components/assets/icons/linkedin.svg"/></a>
-<a><img style="width:320px; height:40px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
+<div style="display:flex; flex:1; flex-direction:row align-items:center; justify-content:center">
+  <a><img style="width:320px; height:40px" src="/fe_dev/my-app/src/components/assets/icons/linkedin.svg"/></a>
+  <a><img style="width:320px; height:40px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
 <div>
-  <p style="font-size: 30px padding-left: 25px">
-    I am open for a Full-time PERN FullStack job. 
-  </p>
-</div>
+
+[!INFO]
+I am open for a Full-time PERN FullStack job. 
+ 
