@@ -1,4 +1,8 @@
-<h1 align="center">Hi! I am Kelvin Vuong</h1>
+<div style="display:flex; flex:1; flex-direction:row">
+  <img src="https://www.svgrepo.com/show/433961/waving-hand.svg" style="width:100px; height:100px"/>
+  <h1>Hi! I am Kelvin Vuong</h1>
+</div>
+
 
 $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
 
