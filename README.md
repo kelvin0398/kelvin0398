@@ -1,42 +1,53 @@
-# MY PORTFOLIO
+
+$$\color{orange}{WELCOME TO MY PROFILE}$$
+$$\color{lightblue}{KHOA VUONG}$$
+
 
 ## TABLE OF CONTENTS
 
-- [What is it?](#What-is-it?)
-- [Why did I created it?](#Why-did-I-Created?)
+- [About Me](#What-is-it?)
+- [Contact](#Contact?)
 
-## What is it?
+## About me
 
-<h2 style="font-size: 50px color: red">
-  My Personal Portfolio
-</h2>
 <div>
+  <h2>Life as a Programmer.</h2>
   <p style="font-size: 30px padding-left: 25px">
-    Here is the showcase of my solo projects and experience.
+    Improve yourself everyday, make sure the next day would be better than the previos day.
   </p>
   <p style="font-size: 30px padding-left: 25px">
-    This Portfolio Website was entirely built from scratch by me. Other methods could have been used for a more speedy and faster approach: using open-source Bootstrap pages or Templates, even maybe simply pull another dev's source code from Hubs. 
+    As an individual loves learning and makes use of them in life. I have found interests in coding.
   </p>
   <p style="font-size: 30px padding-left: 25px">
-    Still, I prefer building my scripts from stratch with as little as possible supports from Documentation and AI Assistant.
+    Then, I realised it's not just about coding and frameworks, it's about proper plans, system design and algoritms.
   </p>
   <p style="font-size: 30px padding-left: 25px">
-    What I have used for this build: 
+    Reading books is not just enough, building projects and starting to acknowledge what I have learned from them seem to be strategical approach to me. 
+  </p>
+   <p style="font-size: 30px padding-left: 25px">
+    Skills need improved:
   </p>
   <ul>
-      <li>React JS</li>
-      <li>Node JS</li>
+      <li>Logic and Clean Code</li>
+      <li>Algoritms</li>
+      <li>System Design</li>
   </ul>
+  <h2>Hobbies</h2>
+  <p align="center">
+   <img src="/fe_dev/my-app/src/components/assets/icons/reading.avif" style="width:35px height:35px border-radius:100%"/>
+   <img src="/fe_dev/my-app/src/components/assets/icons/game.jpg" style="width:35px height:35px border-radius:100%"/>
+   <img src="/fe_dev/my-app/src/components/assets/icons/guitar.webp" style="width:35px height:35px border-radius:100%"/>
+  </p>
 </div>
 
-## Why did I created it?
+## Contact
 
-- Job Opportunities
-- Source Code Review (Looking back at my Coding).
-- Someone who needs an example for his own portfolio establishment, only the usage for reference is recommended. Do not copy and use my entire build for your own Portfolio. Be creative.
-
+<div style="display:flex; flex:1; flex-direction:row">
+</div>
+<a><img style="width:120px; height:10px" src="/fe_dev/my-app/src/components/assets/icons/linkedin.svg"/></a>
+<a><img style="width:120px; height:10px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
 <div>
   <p style="font-size: 30px padding-left: 25px">
-    I am open for the job. 
+    I am open for a Fulltime PERN FullStack job. 
   </p>
 </div>
