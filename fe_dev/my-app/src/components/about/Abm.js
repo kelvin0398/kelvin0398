@@ -220,15 +220,7 @@ function Abm (props) {
             </div>
           </div>
         </div>
-        <div style={{
-          display : 'flex',
-          flex: 1,
-          marginTop : '30px',
-          padding: '10px 20px',
-          justifyContent: 'flex-end',
-          alignItems : 'center',
-          backgroundColor : 'gray',
-        }}>
+        <div className="pageSwitcher">
           <div className="btn-PageSwitcher"
           onClick = {() => {
             window.open('/projects', '_self');

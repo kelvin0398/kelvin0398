@@ -49,7 +49,7 @@ function Contact (props) {
             <div id="info002x001">
               <button className="btn-CanvasView" onClick={() => {
                 window.open('https://kvpersonalprojects.my.canva.site/portfolio-web', '_blank');
-              }}>Canvas View</button>
+              }}>My Canvas</button>
             </div>
         </div>
       </div>

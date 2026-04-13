@@ -1,38 +1,85 @@
-.app-Title
+
+@media (min-width:830px)
 {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  margin-top: 0px;
-  padding-left: 30px;
+    .app-Title
+  {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 0px;
+    padding-left: 30px;
+  }
+  .my-Title
+  {
+    color: black;
+  }
+  .app-Menu 
+  {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    column-gap: 100px;
+    width:100vw;
+  }
+  .app-MenuBtn
+  {
+    border: none;
+    font-size: 40px;
+    color: white;
+    font-weight: 550;
+    background-color: transparent;
+    cursor: pointer;
+    transition: hover, 350ms;
+  }
+  .app-MenuBtn:hover 
+  {
+    text-decoration: underline;
+  }
 }
-.my-Title
+@media (max-width:830px)
 {
-  color: black;
-}
-.app-Menu 
-{
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  color: white;
-  column-gap: 100px;
-}
-.app-MenuBtn
-{
-  border: none;
-  font-size: 40px;
-  color: white;
-  font-weight: 550;
-  background-color: transparent;
-  cursor: pointer;
-  transition: hover, 350ms;
-}
-.app-MenuBtn:hover 
-{
-  text-decoration: underline;
+    .app-Title
+  {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 0px;
+    padding-left: 30px;
+  }
+  .my-Title
+  {
+    color: black;
+  }
+  .app-Menu 
+  {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100px;
+    width:100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    column-gap: 20px;
+  }
+  .app-MenuBtn
+  {
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+    transition: hover, 350ms;
+  }
+  .app-MenuBtn:hover 
+  {
+    text-decoration: underline;
+  }
 }

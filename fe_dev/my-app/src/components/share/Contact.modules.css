@@ -1,116 +1,251 @@
 body
 {
-  --my-canvas-bkg : radial-gradient(rgb(61, 61, 204), rgb(16, 186, 186));
+  --my-canvas-bkg : radial-gradient(rgb(7, 139, 234), rgb(16, 186, 186));
   --my-canvas-bkg-layer : radial-gradient(rgba(61, 61, 204, 0.811), rgba(16, 186, 186, 0.709));
 }
-.pf-ct
+
+@media(min-width:600px)
 {
-  display: flex;
-  flex: 1;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-}
-.pf-contact 
-{ 
-  position: relative;
-  background-color: rgba(69, 66, 66, 0.95);
-  padding: 25px 30px;
-  border: none;
-  border-radius: 5.5px;
-  width: 800px;
-  height: 600px;
-  color: white;
-}
-.pf-ct-shutdown
-{
-  position: absolute;
-  font-size: 30px;
-  top: 0;
-  right: 0;
-  cursor: pointer;
-  width: 80px;
-  height: 50px;
+  .pf-ct
+  {
+    display: flex;
+    flex: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+  }
+  .pf-contact 
+  { 
+    position: relative;
+    background-color: rgba(69, 66, 66, 0.95);
+    padding: 25px 30px;
+    border: none;
+    border-radius: 5.5px;
+    width: 800px;
+    height: 500px;
+    color: white;
+  }
+  .pf-ct-shutdown
+  {
+    position: absolute;
+    border:none;
+    border-radius:100%;
+    font-size: 30px;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    padding: 5px 8px;
+    transition:hover, 0.25s;
+  }
+  .pf-ct-shutdown:hover
+  {
+    background-color: black;
+    color:white;
+  }
+  .contact-info 
+  {
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #info001e001, #info001x001
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+  }
+  #info001e002, #info001x002
+  {
+    padding-left: 1.5px;
+  }
+  .info-text
+  {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: hover, 0.45s;
+  }
+  .info-text:hover 
+  {
+    text-decoration: underline;
+  }
+  .info001, .info001e
+  {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 20px;
+    justify-content: left;
+    align-items: center;
+  }
+  .info002
+  {
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-ico-email
+  {
+    width: 120px;
+    height: 80px;
+  }
+  .info-ico
+  {
+    width: 70px;
+    height: 90px;
+    border-radius: 100%;
+  }
+  .btn-CanvasView
+  {
+    width: 200px;
+    height: 40px;
+    font-size: 28px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-image: var(--my-canvas-bkg);
+    cursor: pointer;
+    transition: hover, 0.85s;
+  }
+  .btn-CanvasView:hover 
+  {
+    background-image: var(--my-canvas-bkg-layer);
+  }
 }
 
-.contact-info 
+@media (max-width:600px)
 {
-  display: flex;
-  margin-top: 80px;
-  width: 100%;
-  flex-direction: column;
-}
+  .pf-ct
+  {
+    display: flex;
+    flex: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+  }
+  .pf-contact 
+  { 
+    position: relative;
+    background-color: rgba(69, 66, 66, 0.95);
+    padding: 1.5px 30px;
+    border: none;
+    border-radius: 5.5px;
+    width: 96%;
+    height: 100%;
+    color: white;
+  }
+  .pf-contact
+  h1
+  {
+    font-size:25px;
+  }
+  .pf-ct-shutdown
+  {
+    position: absolute;
+    border:none;
+    border-radius:100%;
+    font-size: 30px;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+    padding: 5px 8px;
+    transition:hover, 0.25s;
+  }
+  .pf-ct-shutdown:hover
+  {
+    background-color: black;
+    color:white;
+  }
+  .contact-info 
+  {
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    flex-direction: column;
+  }
 
-#info001e001, #info001x001
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
+  #info001e001, #info001x001
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    border-radius: 5.6px;
+    width: 60px;
+  }
+  #info001e002, #info001x002
+  {
+    padding-left: 1.5px;
+  }
+  .info-text
+  {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: hover, 0.45s;
+  }
+  .info-text:hover 
+  {
+    text-decoration: underline;
+  }
+  .info001, .info001e
+  {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+  }
+  .info002
+  {
+    margin-top: 30px;
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-ico-email
+  {
+    width: 60px;
+    height: 35px;
+  }
+  .info-ico
+  {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+  .btn-CanvasView
+  {
+    width: 180px;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-image: var(--my-canvas-bkg);
+    cursor: pointer;
+    transition: hover, 0.85s;
+  }
+  .btn-CanvasView:hover 
+  {
+    background-image: var(--my-canvas-bkg-layer);
+  }
 }
-#info001e002, #info001x002
-{
-  padding-left: 1.5px;
-}
-.info-text
-{
-  color: white;
-  font-size: 25px;
-  text-decoration: none;
-  transition: hover, 0.45s;
-}
-.info-text:hover 
-{
-  text-decoration: underline;
-}
-.info001, .info001e
-{
-  padding: 15px;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  column-gap: 20px;
-  justify-content: left;
-  align-items: center;
-}
-.info002
-{
-  margin-top: 30px;
-  padding: 20px;
-  display: flex;
-  width: 100%;
-  column-gap: 30px;
-  justify-content: center;
-  align-items: center;
-}
-.info-ico-email
-{
-  width: 120px;
-  height: 80px;
-}
-.info-ico
-{
-  width: 70px;
-  height: 90px;
-  border-radius: 100%;
-}
-.btn-CanvasView
-{
-  width: 200px;
-  height: 40px;
-  font-size: 28px;
-  border: none;
-  border-radius: 15px;
-  color: white;
-  background-image: var(--my-canvas-bkg);
-  cursor: pointer;
-  transition: hover, 0.85s;
-}
-.btn-CanvasView:hover 
-{
-  background-image: var(--my-canvas-bkg-layer);
-}
-

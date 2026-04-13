@@ -31,9 +31,10 @@
 
 ## Why did I created it?
 
-<h2 style="font-size: 50px color: red">
-  Job Opportunities
-</h2>
+- Job Opportunities
+- Source Code Review (Looking back at my Coding).
+- Someone who needs an example for his own portfolio establishment, only the usage for reference is recommended. Do not copy and use my entire build for your own Portfolio. Be creative.
+
 <div>
   <p style="font-size: 30px padding-left: 25px">
     I am open for the job. 
