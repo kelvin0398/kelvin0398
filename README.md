@@ -1,20 +1,27 @@
+<h1 align="center">Hi! I am Kelvin Vuong</h1>
 
 $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
-$$\color{lightblue}{KELVIN\space VUONG}$$
-$$\color{lightblue}{KHOA\space VUONG}$$
 
-
-<h1 align="center">QUICK </h1>
-
-- [About Me](#What-is-it?)
+- [About Me](#about-me)
 - [Contact](#learn-more-about-me)
 
 ## About me
 
+- My Full Name: Vuong Nguyen Dang Khoa, you can simply call me  $$\color{green}{Kelvin}$$.
+- This is not a date profile so I can't throw all personal data in here. Just for you know, I am single man.
+- I am still quite struggling in new ideas for the next big projects.
+- What I have done by far: 
+<ul>
+  <li>  Coffee Shop Web App </li>
+  <li>  Hotel ERP System Web App </li>
+  <li>  Internet Banking Desktop App </li>
+  <li> And 18 more repos are still in private mode, either are they just incompleted projects or repos for self-learning. </li>
+</ul>
+
 <div>
   <h3>Life as a Programmer.</h3>
   <p style="font-size: 30px padding-left: 25px">
-    Improve yourself everyday, make sure the next day would be better than the previos day.
+    Diving into codes somehow positively affects me in a way I can hardly explain. I just love how it always keeps my mind busy for solutions.
   </p>
   <p style="font-size: 30px padding-left: 25px">
     As an individual loves learning and makes use of them in life. I have found interests in coding.
@@ -48,6 +55,6 @@ $$\color{lightblue}{KHOA\space VUONG}$$
   <a><img style="width:320px; height:40px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
 <div>
 
-[!INFO]
-I am open for a Full-time PERN FullStack job. 
+> [!INFO]
+> I am open for a Full-time PERN FullStack job. 
  
