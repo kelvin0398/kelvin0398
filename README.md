@@ -40,6 +40,14 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
       <li>Algoritms</li>
       <li>System Design</li>
   </ul>
+  <h3>Personal Stats</h3>
+  
+  [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvin0398)](https://github.com/anuraghazra/github-readme-stats)
+
+  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvin0398&commits_year=2026)
+
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kelvin0398&langs_count=8)
+  
   <h3>Hobbies</h3>
   <p align="center">
    <img src="/fe_dev/my-app/src/components/assets/icons/reading.avif" style="width:80px; height:80px; border-radius:100%"/>
