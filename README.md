@@ -66,12 +66,24 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
 
 <div style="display:flex; flex:1; flex-direction:row align-items:center; justify-content:center">
   <p align="center">
-    <a><img style="width:100px; height:100px" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"/></a>
-    <a><img style="width:100px; height:100px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
-    <a><img style="width:100px; height:100px" src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000"/>
+    <a href="https://vn.linkedin.com/in/kelvinvuongsgu" target="_blank"><img style="width:100px; height:100px" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"/></a>
+    <a href="" target="_blank"><img style="width:100px; height:100px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
+    <a href="https://www.youtube.com/@kelvinvuong5070" target="_blank"><img style="width:100px; height:100px" src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000"/>
   </p>
 <div>
 
-> [!INFO]
-> I am open for a Full-time PERN FullStack job. 
  
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
