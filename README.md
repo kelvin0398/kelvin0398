@@ -1,6 +1,6 @@
 
-$$\color{orange}{WELCOME TO MY PROFILE}$$
-$$\color{lightblue}{KHOA VUONG}$$
+$$\color{orange}{WELCOME\spaceTO\spaceMY\spacePROFILE}$$
+$$\color{lightblue}{KHOA\spaceVUONG}$$
 
 
 ## TABLE OF CONTENTS
@@ -34,9 +34,9 @@ $$\color{lightblue}{KHOA VUONG}$$
   </ul>
   <h2>Hobbies</h2>
   <p align="center">
-   <img src="/fe_dev/my-app/src/components/assets/icons/reading.avif" style="width:35px height:35px border-radius:100%"/>
-   <img src="/fe_dev/my-app/src/components/assets/icons/game.jpg" style="width:35px height:35px border-radius:100%"/>
-   <img src="/fe_dev/my-app/src/components/assets/icons/guitar.webp" style="width:35px height:35px border-radius:100%"/>
+   <img src="/fe_dev/my-app/src/components/assets/icons/reading.avif" style="width:35px; height:35px; border-radius:100%"/>
+   <img src="/fe_dev/my-app/src/components/assets/icons/game.jpg" style="width:35px; height:35px; border-radius:100%"/>
+   <img src="/fe_dev/my-app/src/components/assets/icons/guitar.webp" style="width:35px; height:35px; border-radius:100%"/>
   </p>
 </div>
 
@@ -44,10 +44,10 @@ $$\color{lightblue}{KHOA VUONG}$$
 
 <div style="display:flex; flex:1; flex-direction:row">
 </div>
-<a><img style="width:120px; height:10px" src="/fe_dev/my-app/src/components/assets/icons/linkedin.svg"/></a>
-<a><img style="width:120px; height:10px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
+<a><img style="width:320px; height:40px" src="/fe_dev/my-app/src/components/assets/icons/linkedin.svg"/></a>
+<a><img style="width:320px; height:40px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
 <div>
   <p style="font-size: 30px padding-left: 25px">
-    I am open for a Fulltime PERN FullStack job. 
+    I am open for a Full-time PERN FullStack job. 
   </p>
 </div>
