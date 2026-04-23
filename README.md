@@ -15,14 +15,18 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
       <div>
         <p><img src="https://www.svgrepo.com/show/433961/waving-hand.svg" style="width:100px; height:100px"/>Hi, I am Kelvin Vuong</p>
         <ul>
+        <li>⛺ I am living in Ho Chi Minh City, Vietnam</li>
           <li>
-            💻 I am currently building PERN projects
+            🔭 I love building projects from scratch and learning new Stacks, and Algorithms...
+          </li> 
+          <li>
+            💻 I am currently building PERN projects.
           </li>
           <li>
             🔭 I love building projects from scratch and learning new Stacks, and Algorithms...
           </li> 
           <li>
-            💡 To me, as a developer, it's not just coding, but also how to enhance the system performance and security, implement new algorithms.
+            💡 To me, as a developer, it's not just coding, but also how to enhance the system performance and security, and implement new algorithms.
           </li>
         </ul>
       </div>
@@ -34,15 +38,13 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
   </tbody>
 </table>
 
-<h3>What I am gonna do in my spare time?</h3>
+<h3>What I usually do in my spare time: </h3>
 <ul>
- <li>
-   Playing video games 🎮
-   Playing guitar 🎸
-   Reading 📖
-   Going on soft research on random topic 🔭
-   Drinking plain coffee ☕
- </li>
+ <li>Playing video games 🎮</li>
+  <li>Playing guitar 🎸</li>
+  <li>Reading 📖</li>
+  <li>Going on soft research on random topic 🔭</li>
+  <li>Drinking plain coffee ☕</li>
 </ul>
 
 ## MY SKILLS
