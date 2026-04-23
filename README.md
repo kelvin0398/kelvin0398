@@ -23,9 +23,6 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
             💻 I am currently building PERN projects.
           </li>
           <li>
-            🔭 I love building projects from scratch and learning new Stacks, and Algorithms...
-          </li> 
-          <li>
             💡 To me, as a developer, it's not just coding, but also how to enhance the system performance and security, and implement new algorithms.
           </li>
         </ul>
