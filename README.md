@@ -7,30 +7,52 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
 
 ## About me
 
-<div>
- <p><img src="https://www.svgrepo.com/show/433961/waving-hand.svg" style="width:100px; height:100px"/>Hi, I am Kelvin Vuong</p>
- <ul>
-  <li>
-    I am currently building PERN projects
-  </li>
-  <li>
-    I love building projects from scratch and learning new Stacks, and Algorithms...
-  </li> 
-  <li>
-    To me, as a developer, it's not just coding, but also how to enhance the system performance and security, implement new algorithms.
-  </li>
- </ul>
-</div> | <img style="width=500px; height=600px" src="https://cdn.dribbble.com/userupload/37093547/file/original-a81fda6343ddfd24ef52a33e0eaf0fd4.gif"/>
+
+<table>
+  <tbody>
+   <tr>
+    <td>
+      <div>
+        <p><img src="https://www.svgrepo.com/show/433961/waving-hand.svg" style="width:100px; height:100px"/>Hi, I am Kelvin Vuong</p>
+        <ul>
+          <li>
+            💻 I am currently building PERN projects
+          </li>
+          <li>
+            🔭 I love building projects from scratch and learning new Stacks, and Algorithms...
+          </li> 
+          <li>
+            💡 To me, as a developer, it's not just coding, but also how to enhance the system performance and security, implement new algorithms.
+          </li>
+          <li>
+            📫 Reach me on kelvinvuongsgu@gmail.com.
+          </li>
+        </ul>
+      </div>
+    </td>
+    <td>
+      <img style="width=250px; height=200px" src="https://cdn.dribbble.com/userupload/37093547/file/original-a81fda6343ddfd24ef52a33e0eaf0fd4.gif"/>
+    </td>
+   </tr>
+  </tbody>
+</table>
 
 <h3>What I am gonna do in my spare time?</h3>
+<ul>
+ <li>
+   Playing video games 🎮
+   Playing guitar 🎸
+   Reading 📖
+   Going on soft research on random topic 🔭
+   Drinking plain coffee ☕
+ </li>
+</ul>
 
 ## MY SKILLS
 
 <h3>Technologies I have used: </h3>
 
-<p>
    [![My Skills](https://skillicons.dev/icons?i=js,html,css,js,nodejs,express,fastapi,postman,docker,react,bootstrap,nginx,npm,mysql,postgres,redis,git,github,py,java,cpp,md,powershell,linux,kali)](https://skillicons.dev)
-</p>
 
 <h3>Personal Stats</h3>
 
