@@ -8,7 +8,7 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
 ## About me
 
 
-<table>
+<table border="none">
   <tbody>
    <tr>
     <td>
@@ -23,9 +23,6 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
           </li> 
           <li>
             💡 To me, as a developer, it's not just coding, but also how to enhance the system performance and security, implement new algorithms.
-          </li>
-          <li>
-            📫 Reach me on kelvinvuongsgu@gmail.com.
           </li>
         </ul>
       </div>
@@ -66,6 +63,7 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
 ## Learn more about me
 
 <div style="display:flex; flex:1; flex-direction:row align-items:center; justify-content:center">
+  <p>📫 Reach me on kelvinvuongsgu@gmail.com.</p>
   <p align="center">
     <a href="https://vn.linkedin.com/in/kelvinvuongsgu" target="_blank"><img style="width:100px; height:100px" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"/></a>
     <a href="" target="_blank"><img style="width:100px; height:100px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
