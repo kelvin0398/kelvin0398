@@ -7,14 +7,11 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
 
 ## About me
 
-
-<table border="none">
-  <tbody>
-   <tr>
-    <td>
-      <div>
-        <p><img src="https://www.svgrepo.com/show/433961/waving-hand.svg" style="width:100px; height:100px"/>Hi, I am Kelvin Vuong</p>
-        <ul>
+|
+<p>
+  <img src="https://www.svgrepo.com/show/433961/waving-hand.svg" style="width:100px; height:100px"/>Hi, I am Kelvin Vuong
+</p> 
+<ul>
         <li>⛺ I am living in Ho Chi Minh City, Vietnam</li>
           <li>
             🔭 I love building projects from scratch and learning new Stacks, and Algorithms...
@@ -25,15 +22,11 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
           <li>
             💡 To me, as a developer, it's not just coding, but also how to enhance the system performance and security, and implement new algorithms.
           </li>
-        </ul>
-      </div>
-    </td>
-    <td>
-      <img style="width=250px; height=200px" src="https://cdn.dribbble.com/userupload/37093547/file/original-a81fda6343ddfd24ef52a33e0eaf0fd4.gif"/>
-    </td>
-   </tr>
-  </tbody>
-</table>
+  </ul>
+| 
+  <img style="width=250px; height=200px" src="https://cdn.dribbble.com/userupload/37093547/file/original-a81fda6343ddfd24ef52a33e0eaf0fd4.gif"/>
+|
+| ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | 
 
 <h3>What I usually do in my spare time: </h3>
 <ul>
