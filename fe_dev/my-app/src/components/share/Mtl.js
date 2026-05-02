@@ -28,6 +28,13 @@ function TitleMenu (props) {
       <div>
         <button className="app-MenuBtn"
         onClick={() => {
+          window.open('https://canva.link/7hjqmpwyermrisc', '_self');
+        }}
+        >My CV</button>
+      </div>
+      <div>
+        <button className="app-MenuBtn"
+        onClick={() => {
           setContact(true);
         }}
         >Contact</button>
