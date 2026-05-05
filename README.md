@@ -1,5 +1,7 @@
 
-$$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
+ <h1 align="center">
+  $$\color{cyan}WELCOME \space TO \space MY\space \color{blue} GITHUB\space \color{lightgreen}PROFILE$$
+ </h1>
 
 - [About Me](#about-me)
 - [My Technical Skills](#my-skills)
@@ -27,11 +29,11 @@ $$\color{orange}{WELCOME \space TO \space MY\space PROFILE}$$
 
 <h3>Personal Stats</h3>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvin0398&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Pranesh's GitHub stats-Dark](https://github-readme-stats-fast.vercel.app/api?username=kelvin0398&show_icons=true&theme=tokyonight#gh-dark-mode-only)](https://github.com/Pranesh-200/github-readme-stats#gh-dark-mode-only)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvin0398&theme=radical&commits_year=2026)
+[![GitHub Streak](https://github-readme-stats-fast.vercel.app/api/streak?username=kelvin0398&theme=radical)](https://github.com/pranesh-2005/github-readme-stats-fast)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kelvin0398&theme=radical&langs_count=8)
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kelvin0398&layout=donut&theme=dark)](https://github.com/Pranesh-2005/github-readme-stats)
 
 
 ## Learn more about me
