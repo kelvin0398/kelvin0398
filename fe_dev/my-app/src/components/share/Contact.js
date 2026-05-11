@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import styles from './Contact.modules.css'
+//import styles from './Contact.modules.css'
 import myGit from '../assets/icons/git.png'
 import myEmail from '../assets/icons/email.png'
 import myPhone from '../assets/icons/phone.png'
@@ -22,27 +22,27 @@ function Contact (props) {
         
           <div className="info001e" >
             <div id="info001e001">
-              <img className="info-ico-email" src={myEmail}/>
+              <img className="info-ico-email" src={myEmail} alt="Candidate's Email"/>
             </div>
             <div id="info001e002">
-              <a className="info-text" href="https://mail.google.com/" target="_blank">kelvinvuongsgu@gmail.com</a>
+              <a className="info-text" href="https://mail.google.com/" target="_blank" rel="noreferrer">kelvinvuongsgu@gmail.com</a>
             </div>
           </div>
         
         <div className="info001">
           <div id="info001x001">
-            <img className="info-ico" src={myPhone}/>
+            <img className="info-ico" src={myPhone} alt="Candidate's Phone Number"/>
           </div>
           <div id="info001e002">
-            <a className="info-text" href="https://zalo.me/vi/" target="_blank">+84 0899 466 398</a>
+            <a className="info-text" href="https://zalo.me/vi/" target="_blank" rel="noreferrer">+84 0899 466 398</a>
           </div>
         </div>
         <div className="info001">
           <div id="info001x001">
-            <img className="info-ico" src={myGit}/>
+            <img className="info-ico" src={myGit} alt="Candidate's Github"/>
           </div>
           <div id="info001x002">
-            <a className="info-text" href="https://github.com/kelvin0398" target="_blank">Github Profile</a>
+            <a className="info-text" href="https://github.com/kelvin0398" target="_blank" rel="noreferrer">Github Profile</a>
         </div>
           </div>
           <div className="info002">

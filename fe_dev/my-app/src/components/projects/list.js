@@ -1,6 +1,6 @@
 import React from 'react'
-import projects from './project_data'
-import styles from './mp.modules.css'
+//import projects from './project_data'
+//import styles from './mp.modules.css'
 import List1 from './List1';
 import List2 from './List2';
 

@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './Mtl.modules.css'
+//import styles from './Mtl.modules.css'
 
 function TitleMenu (props) {
-  const {contact, setContact} = props;
+  const {setContact} = props;
   return (
   <div>
        <div className="app-Title">

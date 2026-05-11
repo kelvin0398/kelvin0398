@@ -7,7 +7,7 @@ function List1 (props) {
     <React.Fragment>
       {projects.map((project, index) => <tr key={"prj"+index}>
         <td className="tb-img">
-          <img src={project.img} className="pj-img"/>
+          <img src={project.img} className="pj-img" alt="Project's Image"/>
         </td>
         <td>
           {project.name}
@@ -22,7 +22,7 @@ function List1 (props) {
           )}
         </td>
         <td>
-          <a className="project-url" href={project.link} target='_blank'>Source Code</a>
+          <a className="project-url" href={project.link} target='_blank' rel="noreferrer">Source Code</a>
         </td>
       </tr>)}
     </React.Fragment>

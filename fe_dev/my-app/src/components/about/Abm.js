@@ -1,6 +1,6 @@
 import React from 'react'
 import myPortfolio from '../assets/self/portrait_1.png'
-import styles from './Abm.modules.css'
+//import styles from './Abm.modules.css'
 import TitleMenu from '../share/Mtl';
 import Contact from '../share/Contact'
 import MyFooter from '../share/MyFooter';
@@ -103,7 +103,7 @@ function Abm (props) {
               </p>
             </div>
             <div className="my-Portrait">
-              <img className="myP-Img" src={myPortfolio} />
+              <img className="myP-Img" src={myPortfolio} alt="Personal Portrait"/>
             </div>
           </div>
         <div className="abm-text-001">
@@ -126,7 +126,7 @@ function Abm (props) {
             </p>
         </div>
         <div className="abm-ele">
-            <img src={MyWelcome} className="abm-ele-img" />
+            <img src={MyWelcome} className="abm-ele-img" alt="A Quick Welcome"/>
         </div>
         </div>
         <div className="abm-section-3">
@@ -227,7 +227,7 @@ function Abm (props) {
           }}
           >
             My Projects
-            <img src={Arrow1} className="bps-arrow"></img>
+            <img src={Arrow1} className="bps-arrow" alt="SwipeIcon"></img>
           </div>
         </div>
         <div className="pg-footer">
