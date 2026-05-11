@@ -1,5 +1,5 @@
 import React from 'react'
-//import styles from './MyFooter.modules.css'
+import './MyFooter.modules.css'
 
 class MyFooter extends React.Component {
   constructor () {

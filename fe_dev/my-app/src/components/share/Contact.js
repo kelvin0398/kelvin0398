@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-//import styles from './Contact.modules.css'
+import './Contact.modules.css'
 import myGit from '../assets/icons/git.png'
 import myEmail from '../assets/icons/email.png'
 import myPhone from '../assets/icons/phone.png'

@@ -1,5 +1,5 @@
 import React from 'react'
-//import styles from './mp.modules.css'
+import './mp.modules.css'
 import TitleMenu from '../share/Mtl'
 import Contact from '../share/Contact'
 
