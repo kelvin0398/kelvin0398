@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './MyFooter.modules.css'
+//import styles from './MyFooter.modules.css'
 
 class MyFooter extends React.Component {
   constructor () {
@@ -10,9 +10,9 @@ class MyFooter extends React.Component {
     return (
       <div className="my-footer">
         <div>
-          <h3>ReactX</h3>
+          <h3>FullstackX</h3>
           <p>Personal Portfolio</p>
-          <p>(c) Copyright Kelvin Vuong 2026</p>
+          <p>(c) Copyright Kelvin Vuong 2025-2026</p>
         </div>
       </div>
     )

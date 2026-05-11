@@ -39,7 +39,7 @@ function ProjectList1 (props) {
             window.open('/', '_self');
           }}
           >
-            <img src={Arrow1} className="mp-bps-arrow"></img>
+            <img src={Arrow1} className="mp-bps-arrow" atl="Arrow"></img>
             About me
           </div>
         </div>

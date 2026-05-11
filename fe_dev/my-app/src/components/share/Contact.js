@@ -6,7 +6,7 @@ import myEmail from '../assets/icons/email.png'
 import myPhone from '../assets/icons/phone.png'
 
 function Contact (props) {
-  const {contact, setContact} = props;
+  const {setContact} = props;
   return (ReactDOM.createPortal((
   <div className="pf-ct">
     <div className="pf-contact">
