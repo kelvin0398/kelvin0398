@@ -41,8 +41,9 @@
 <div style="display:flex; flex:1; flex-direction:row align-items:center; justify-content:center">
   <p>📫 Reach me on kelvinvuongsgu@gmail.com.</p>
   <p align="center">
-    <a href="https://vn.linkedin.com/in/kelvinvuongsgu" target="_blank"><img style="width:100px; height:100px" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"/></a>
-    <a href="" target="_blank"><img style="width:100px; height:100px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
-    <a href="https://www.youtube.com/@kelvinvuong5070" target="_blank"><img style="width:100px; height:100px" src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000"/>
+    <a href="https://vn.linkedin.com/in/kelvinvuongsgu" target="_blank"><img style="width:180px; height:50px" src="/fe_dev/my-app/src/components/assets/icons/mp-linkedin.png"/></a>
+    <a href="https://kelvinvuong.com" target="_blank"><img style="width:180px; height:50px" src="/fe_dev/my-app/src/components/assets/icons/personal-brand.svg"/></a>
+    <a href="https://www.hackerrank.com/profile/kelvinvuongsgu" target="_blank"><img style="width:180px; height:50px" src="https://img.shields.io/badge/hacker%20rank%20profile-grey?style=for-the-badge&logo=hackerrank"/></a>
+    <a href="https://www.youtube.com/@kelvinvuong5070" target="_blank"><img style="width:180px; height:50px" src="https://img.shields.io/badge/my%20channel%20-grey?style=for-the-badge&logo=youtube"/>
   </p>
 <div>
