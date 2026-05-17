@@ -5,6 +5,7 @@ import MyHotel from '../assets/projects/hotel.jpg'
 
 //PROJECT DATA
 // LIST OF COMPLETED SOLO PROJECTS
+//Add items
 
 const projects = 
 [
@@ -26,14 +27,14 @@ const projects =
     img : CoffeeShop,
     name : "Restaurant Website",
     description: "A F&B website for online order and payment.",
-    techs : ["Javascript", "HTML", "CSS"], 
+    techs : ["Javascript" ,"HTML" ,"CSS" ,"PostgresSQL" ,"Python" ,"FastAPI","Docker"], 
     link : 'https://github.com/kelvin0398/f-b-coffee-shop'
   },
   {
     img : MyHotel,
     name : "Hotel Management",
     description: "A Hospitality for Full Stack Development",
-    techs : ["Javascript", "React JS", "NodeJS", "HTML", "CSS", "Docker"],
+    techs : ["Javascript", "PostgresSQL" ,"ReactJS" ,"NodeJS" ,"HTML" ,"CSS" ,"Docker"],
     link : 'https://github.com/kelvin0398/hotel-management-erp' 
   },
 ]
